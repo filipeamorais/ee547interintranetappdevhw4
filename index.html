@@ -10,9 +10,22 @@
     <div class="outlayer">
         <form name="calculatorForm">
             <div class="display">
-            <div class="display">
-
+                <input type="text" placeholder="0" name="displayResultX"/>
             </div>
+            <div class="display">
+                <input type="text" placeholder="0" name="displayResultX"/>
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <input type="button" name="add" value="+" onClick="calcNumbers(b7.value)">
+                    <input type="button" name="subtract" value="-" onClick="calcNumbers(b7.value)">
+                    <input type="button" name="divide" value="/" onClick="calcNumbers(b7.value)">
+                    <input type="button" name="multiply" value="*" onClick="calcNumbers(b7.value)">
+                    <input type="button" name="modulus" value="%" onClick="calcNumbers(b7.value)">
+                    <input type="button" name="greaterthan" value="&gt;=" onClick="calcNumbers(b7.value)">
+                    <input type="button" name="lessthan" value="&lt;=" onClick="calcNumbers(b7.value)">
+                </div>
+            <div class="displayResult"></div>
             </div>
         </form>
     </div>
