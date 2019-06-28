@@ -11,10 +11,10 @@
     <div class="outlayer">
         <form id="calculatorForm">
             <div class="display">
-                <input type="text" placeholder="0" id="inputX"/>
+                <label>X=<input type="text" placeholder="0" id="inputX"/></label>
             </div>
-            <div class="display">
-                <input type="text" placeholder="0" id="inputY"/>
+            <div class="display" id="displayY">
+                <label>Y=</label><input type="text" placeholder="0" id="inputY"/>
             </div>
             <div class="buttons">
                 <div class="row">
@@ -26,8 +26,8 @@
                     <input type="button" id="greaterthan" value="&gt;=">
                     <input type="button" id="lessthan" value="&lt;=">
                 </div>
-            <div id="displayResult"></div>
             </div>
+            <output id="displayResult"></output>
         </form>
     </div>
     <!--javascript importing-->

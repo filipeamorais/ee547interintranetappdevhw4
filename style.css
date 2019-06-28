@@ -13,16 +13,56 @@ body, html {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
     border-radius: 14px;
     padding-bottom: 20px;
-    width: 320px;
+    width: 530px;
 }
 
 .display {
     width: 100%;
-    height: 60px;
+    height: 100px;
     padding: 40px 0;
-    background: #FF0509;
+    background: rgb(3, 48, 14);
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
+}
+
+#displayY {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+label{
+    width: 270px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 25px;
+    display: inline;
+}
+
+#displayResult {
+    display: block;
+    width: 270px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    color: rgb(3, 48, 14);
+    text-align: right;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 25px;
+    
 }
 
 .buttons {
@@ -30,7 +70,7 @@ body, html {
 }
 
 .row {
-    width: 280px;
+    width: 530px;
     float: left;
 }
 
@@ -66,5 +106,6 @@ input[type=text] {
     font-size: 60px;
     line-height: 60px;
     margin: 0 25px;
+    display: inline;
     
 }
