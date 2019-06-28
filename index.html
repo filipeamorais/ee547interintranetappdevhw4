@@ -5,29 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript Calculator | Filipe Morais</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="outlayer">
-        <form name="calculatorForm">
+        <form id="calculatorForm">
             <div class="display">
-                <input type="text" placeholder="0" name="displayResultX"/>
+                <input type="text" placeholder="0" id="inputX"/>
             </div>
             <div class="display">
-                <input type="text" placeholder="0" name="displayResultX"/>
+                <input type="text" placeholder="0" id="inputY"/>
             </div>
             <div class="buttons">
                 <div class="row">
-                    <input type="button" name="add" value="+" onClick="calcNumbers(b7.value)">
-                    <input type="button" name="subtract" value="-" onClick="calcNumbers(b7.value)">
-                    <input type="button" name="divide" value="/" onClick="calcNumbers(b7.value)">
-                    <input type="button" name="multiply" value="*" onClick="calcNumbers(b7.value)">
-                    <input type="button" name="modulus" value="%" onClick="calcNumbers(b7.value)">
-                    <input type="button" name="greaterthan" value="&gt;=" onClick="calcNumbers(b7.value)">
-                    <input type="button" name="lessthan" value="&lt;=" onClick="calcNumbers(b7.value)">
+                    <input type="button" id="add" value="+">
+                    <input type="button" id="subtract" value="-" >
+                    <input type="button" id="divide" value="/" >
+                    <input type="button" id="multiply" value="*" >
+                    <input type="button" id="modulus" value="%" >
+                    <input type="button" id="greaterthan" value="&gt;=">
+                    <input type="button" id="lessthan" value="&lt;=">
                 </div>
-            <div class="displayResult"></div>
+            <div id="displayResult"></div>
             </div>
         </form>
     </div>
+    <!--javascript importing-->
+	<script src="calculator.js"></script>
 </body>
 </html>
