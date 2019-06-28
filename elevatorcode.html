@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elevator-code</title>
+</head>
+<body>
+    <h2>I reached until the 4th Challenge just by looking and trying to understand the most efficient way to transport the people.</h2>
+    <p></p>
+            <p>{</p>
+                <p> init: function(elevators, floors) {</p>
+                <p>     var elevator = elevators[0]; // Let's use the first elevator</p>
+    
+                <p>     // Whenever the elevator is idle (has no more queued destinations) ...</p>
+                <p>     elevator.on("idle", function() {</p>
+                <p>     // let's go to all the floors (or did we forget one?)</p>
+                <p>     elevator.goToFloor(0);</p>
+                <p>     elevator.goToFloor(4);</p>
+                <p>     elevator.goToFloor(3);</p>
+                <p>     elevator.goToFloor(2);</p>
+                <p>     elevator.goToFloor(1);</p>
+                <p>     });</p>
+      
+                <p> },</p>
+                <p> update: function(dt, elevators, floors) {</p>
+                <p> // We normally don't need to do anything here</p>
+                <p> }</p>
+            <p>}</p>
+    </p>
+</body>
+</html>

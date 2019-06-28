@@ -47,6 +47,10 @@ label{
     display: inline;
 }
 
+.linkToOther{
+    text-align: center;
+}
+
 #displayResult {
     display: block;
     width: 270px;
